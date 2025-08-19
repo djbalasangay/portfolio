@@ -26,6 +26,16 @@ body {
   align-items: center;
   padding: 0 1rem;
 }
+.hero-section {
+  height: 100vh; /* Full screen height */
+  padding-top: 70px; /* Prevents navbar from overlapping */
+}
+
+.hero-section img {
+  max-width: 200px;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
 
 .brand {
   font-size: 1.5rem;
